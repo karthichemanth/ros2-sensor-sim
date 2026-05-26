@@ -18,9 +18,11 @@ setup(
     description='Temperature sensor simulator',
     license='MIT',
     entry_points={
-        'console_scripts': [
-            'publisher = sensor_sim.temperature_publisher:main',
-            'subscriber = sensor_sim.temperature_subscriber:main',
-        ],
-    },
+    'console_scripts': [
+        'publisher = sensor_sim.temperature_publisher:main',
+        'subscriber = sensor_sim.temperature_subscriber:main',
+        'alert_node = sensor_sim.alert_node:main',
+        'alert_subscriber = sensor_sim.alert_subscriber:main',
+    ],
+},
 )
