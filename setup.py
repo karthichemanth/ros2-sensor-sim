@@ -23,6 +23,8 @@ setup(
         'subscriber = sensor_sim.temperature_subscriber:main',
         'alert_node = sensor_sim.alert_node:main',
         'alert_subscriber = sensor_sim.alert_subscriber:main',
+        'temperature_service = sensor_sim.temperature_service:main',
+        'temperature_client = sensor_sim.temperature_client:main',
     ],
 },
 )
