@@ -11,6 +11,8 @@ setup(
         ['resource/' + package_name]),
     ('share/' + package_name, ['package.xml']),
     ('share/' + package_name + '/launch', ['launch/sensor_launch.py']),
+    ('share/' + package_name + '/launch', ['launch/gazebo_launch.py']),
+    ('share/' + package_name + '/urdf', ['urdf/robot.urdf.xacro']),
 ],
     install_requires=['setuptools'],
     zip_safe=True,
